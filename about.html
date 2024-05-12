@@ -2,7 +2,6 @@
 <html lang="en" class="h-100" data-bs-theme="auto">
 
 <head>
-    <script src="./assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +41,7 @@
             <table class="table mt-5 table-about">
               <thead>
                 <tr>
-                  <th colspan="3">Profile</th>
+                  <th colspan="3" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">Profile</th>
                 </tr>
               </thead>
               <tr>
@@ -74,9 +73,9 @@
                 </td>
               </tr>
               <tr>
-                <td>Hobby</td>
-                <td>:</td>
-                <td>
+                <td style="border-bottom: none;">Hobby</td>
+                <td style="border-bottom: none;">:</td>
+                <td style="border-bottom: none;">
                   <ul class="list-group list-group-horizontal">
                     <li class="list-group-item">Bycicle</li>
                     <li class="list-group-item">Swimming</li>
@@ -90,7 +89,7 @@
             <table class="table mt-5 table-about mb-5">
               <thead>
                 <tr>
-                  <th colspan="3">Work Experience</th>
+                  <th colspan="3" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">Work Experience</th>
                 </tr>
               </thead>              
               <tr>
@@ -127,6 +126,18 @@
                     href="https://instagram.com/marsanix" class="text-white" target="_blank">@marsanix</a>.</i></p>
         </footer>
     </div>
+    
+    <!-- Cursor Effect, source: https://github.com/SavvyChic42/Animated-Cursor-using-HTML-CSS-JS/tree/main -->
+    <div class="cursor"></div>
+    <script src="./assets/js/cursor.js"></script>
+
+    <!-- Mouse Effect, source: https://tympanus.net/Development/AnimatedHeaderBackgrounds/ -->
+    <canvas id="demo-canvas" style="position: absolute; z-index:-1"></canvas>
+    <script src="./assets/js/TweenLite.min.js"></script>
+    <script src="./assets/js/EasePack.min.js"></script>
+    <script src="./assets/js/demo-1.js"></script>
+
+    <!-- Memuat JS dari template bootstrap -->
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
